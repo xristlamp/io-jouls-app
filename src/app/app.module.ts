@@ -5,13 +5,15 @@ import { AppRoutingModule , routingComponents} from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
+import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
     FirstPageComponent,
-    SecondPageComponent
+    SecondPageComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
